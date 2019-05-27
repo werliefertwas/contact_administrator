@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WlwContacts</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", media: "all" %>
+  </head>
+
+  <body>
+    <ul class="menu">
+      <li><%= link_to 'Contact Form', root_path %></li>
+      <li><%= link_to 'Admin', admin_contacts_list_path %></li>
+    </ul>
+    <%= yield %>
+  </body>
+</html>

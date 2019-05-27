@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+confirmed:
+  last_name: Bond
+  phone: +44 007 1234567
+  body: Licence to kill
+  status: 1
+
+declined:
+  last_name: Dr. Evil
+  phone: +49 40 123456
+  body: wlw.de
+  status: 0
+
+waiting:
+  last_name: Miss Moneypenny
+  phone: +44 12 4477531
+  body: https://www.gov.uk/government/how-government-works
+  status: 2

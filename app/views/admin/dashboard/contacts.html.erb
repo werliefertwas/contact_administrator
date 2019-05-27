@@ -1,0 +1,23 @@
+<h1>List of confirmed contacts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Last name</th>
+      <th>Phone</th>
+      <th>Status</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @contacts.each do |contact| %>
+      <tr>
+        <td><%= contact.last_name %></td>
+        <td><%= contact.phone %></td>
+        <td><%= contact.status %></td>
+        <td><%= contact.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
